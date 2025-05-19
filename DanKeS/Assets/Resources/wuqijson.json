@@ -1,0 +1,329 @@
+{
+  "wuqi": [
+    {
+      "icon": "banzhuan",
+      "name": "板砖",
+      "atk": 15,
+      "timer": 1.0,
+      "level": 1,
+      "type": 1,
+      "message": "掷出1个板砖"
+    },
+    {
+      "icon": "buqiang",
+      "name": "步枪",
+      "atk": 15,
+      "timer": 1.0,
+      "level": 1,
+      "type": 2,
+      "message": "这是一块板砖，可以向上击打敌人"
+    },
+    {
+      "icon": "gutou",
+      "name": "足球",
+      "timer": 1.5,
+      "atk": 15,
+      "level": 1,
+      "type": 1,
+      "message": "丢出1个可以弹射的足球"
+    },
+    {
+      "icon": "huanraojupan",
+      "name": "守卫者",
+      "atk": 15,
+      "timer": 1,
+      "level": 1,
+      "type": 1,
+      "message": "召唤2个环绕自身的守卫者陀螺，守卫者可以击落子弹"
+    },
+    {
+      "icon": "huixuanbiao",
+      "name": "回旋镖",
+      "atk": 15,
+      "timer": 1.3,
+      "level": 1,
+      "type": 1,
+      "message": "投掷1个回旋镖，增加伤害"
+    },
+    {
+      "icon": "huojiandan",
+      "name": "火箭发射器",
+      "timer": 1.6,
+      "atk": 15,
+      "level": 1,
+      "type": 1,
+      "message": "发射一枚可以爆炸的火箭弹"
+    },
+    {
+      "icon": "jiguangcaokongqi",
+      "name": "激光发射器",
+      "atk": 15,
+      "timer": 2.3,
+      "level": 1,
+      "type": 1,
+      "message": "发射交叉型激光对敌人造成高频伤害"
+    },
+    {
+      "icon": "leidianfasheqi",
+      "name": "雷电发射器",
+      "atk": 15,
+      "timer": 1.5,
+      "level": 1,
+      "type": 1,
+      "message": "召唤雷电攻击随机1个目标区域"
+    },
+    {
+      "icon": "liulian",
+      "name": "榴莲",
+      "atk": 15,
+      "timer": 2,
+      "level": 1,
+      "type": 1,
+      "message": "投掷一枚榴莲砸向敌人，榴莲会持续存在"
+    },
+    {
+      "icon": "qiugun",
+      "name": "球棍",
+      "timer": 1.5,
+      "atk": 15,
+      "level": 1,
+      "type": 1,
+      "message": "这是一块板砖，可以向上击打敌人"
+    },
+    {
+      "icon": "ranshaodan",
+      "name": "燃烧瓶",
+      "atk": 15,
+      "timer": 2,
+      "level": 1,
+      "type": 1,
+      "message": "扔出2个燃烧瓶"
+    },
+    {
+      "icon": "rongjielichang",
+      "name": "立场发生器",
+      "atk": 15,
+      "timer": 0.5,
+      "level": 1,
+      "type": 1,
+      "message": "面积增大，伤害增加"
+    },
+    {
+      "icon": "Shuriken",
+      "name": "苦无",
+      "atk": 15,
+      "timer": 1.5,
+      "level": 1,
+      "type": 1,
+      "message": "增加1枚苦无，伤害增加"
+    },
+    {
+      "icon": "wurenji_A",
+      "name": "A型无人机",
+      "atk": 15,
+      "timer": 1.2,
+      "level": 1,
+      "type": 1,
+      "message": "召唤一个A型无人机，无人机可以发射大量导弹"
+    },
+    {
+      "icon": "wurenji_B",
+      "name": "B型无人机",
+      "atk": 15,
+      "timer": 1.3,
+      "level": 1,
+      "type": 1,
+      "message": "召唤一个B型无人机，B型发射冷却时间更短导弹伤害更高但是发射数量大幅减"
+    },
+    {
+      "icon": "wushidao",
+      "name": "太刀",
+      "atk": 15,
+      "timer": 1.5,
+      "level": 1,
+      "type": 2,
+      "message": "这东西可不止用于要帅"
+    },
+    {
+      "icon": "xiandanqiang",
+      "name": "霰弹枪",
+      "atk": 15,
+      "timer": 1.5,
+      "level": 1,
+      "type": 2,
+      "message": "在霰弹枪面前，众生平等，就算变异者也不例外"
+    },
+    {
+      "icon": "zuantoudan",
+      "name": "钻头弹",
+      "atk": 15,
+      "timer": 1,
+      "level": 1,
+      "type": 1,
+      "message": "增加钻头速度，增加钻头伤害"
+    },
+    {
+      "icon": "zuolun",
+      "name": "左轮",
+      "atk": 15,
+      "timer": 1,
+      "level": 1,
+      "type": 1,
+      "message": "大口径的左轮手枪，为数不多的能带给你安全感的武器"
+    }
+  ],
+  "jineng": [
+    {
+      "icon": "citie",
+      "name": "强力磁铁",
+      "num": 15,
+      "level": 1,
+      "type": 4,
+      "message": "道具吸收范围增加100%"
+    },
+    {
+      "icon": "donglixie",
+      "name": "动力鞋",
+      "num": 15,
+      "level": 1,
+      "type": 4,
+      "message": "增加10%的移动速度"
+    },
+    {
+      "icon": "gaobaoranliao",
+      "name": "高爆燃料",
+      "num": 13,
+      "level": 1,
+      "type": 4,
+      "message": "所有弹药、武器范围增加10%"
+    },
+    {
+      "icon": "gaonengdanjia",
+      "name": "高能弹夹",
+      "num": 13,
+      "level": 1,
+      "type": 4,
+      "message": "增加10%的子弹攻击速度"
+    },
+    {
+      "icon": "gongnengyinliao",
+      "name": "功能饮料",
+      "num": 1,
+      "level": 1,
+      "type": 4,
+      "message": "每5秒恢复1%的血量"
+    },
+    {
+      "icon": "jianshenzhinan",
+      "name": "健身指南",
+      "num": 13,
+      "level": 1,
+      "type": 4,
+      "message": "增加10%的子弹攻击速度"
+    },
+    {
+      "icon": "jixiebi",
+      "name": "外骨骼臂甲",
+      "num": 13,
+      "level": 1,
+      "type": 4,
+      "message": "所有持续效果延长10%"
+    },
+    {
+      "icon": "manjihuixue",
+      "name": "满级回血",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "增加30%的血量"
+    },
+    {
+      "icon": "gaonengdanjia",
+      "name": "高能弹夹",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "增加30%的血量"
+    },
+    {
+      "icon": "jianshenzhinan",
+      "name": "健身指南",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "血量上限增加20%"
+    },
+    {
+      "icon": "jiasuqi",
+      "name": "加速器",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "增加30%的血量"
+    },
+    {
+      "icon": "kaijia",
+      "name": "浪人铠甲",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "受到伤害降低10%"
+    },
+    {
+      "icon": "nengliangkuai",
+      "name": "能量块",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "所有攻击间隔减少8%"
+    },
+    {
+      "icon": "kaishijijinbi1",
+      "name": "开始金币1",
+      "num": 30,
+      "level": 1,
+      "type": 3,
+      "message": "增加30金币"
+    },
+    {
+      "icon": "kaishijijinbi2",
+      "name": "开始金币2",
+      "num": 80,
+      "level": 1,
+      "type": 3,
+      "message": "增加80金币"
+    },
+    {
+      "icon": "qianglidantou",
+      "name": "强力弹头",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "攻击增加10%"
+    },
+    {
+      "icon": "qiantiao",
+      "name": "石油债券",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "金币获取增加8%"
+    },
+    {
+      "icon": "zhanshuzhinan",
+      "name": "战术指南",
+      "num": 30,
+      "level": 1,
+      "type": 4,
+      "message": "增加30%的血量"
+    },
+    {
+      "icon": "manjijinbi",
+      "name": "满级金币",
+      "num": 100,
+      "level": 1,
+      "type": 3,
+      "message": "增加100金币"
+    }
+  ]
+}
