@@ -32,10 +32,14 @@ public class GuaiWu : MonoBehaviour
     {
         if (other.tag == "RenWu")
         {
-           
             Player.Instance.hp -= 2f;
             playHp.value = Player.Instance.hp / 100;
-            //Destroy(gameObject);
+            
+        }
+        if(other.tag == "att")
+        {
+            GameObject exp = Resources.Load<GameObject>("Experience");
+            Instantiate(exp, GuaiTran.transform.position, Quaternion.identity);
         }
     }
 }
