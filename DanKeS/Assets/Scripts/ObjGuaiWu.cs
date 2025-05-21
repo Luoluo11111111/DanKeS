@@ -7,6 +7,7 @@ using UnityEngine.Pool;
 public class ObjGuaiWu : MonoBehaviour
 {
     public Transform guaiwuPos;
+
     public static ObjGuaiWu Instance;
 
     [Header("怪物生成配置")]
@@ -18,7 +19,7 @@ public class ObjGuaiWu : MonoBehaviour
 
     private Queue<GameObject> monsterPool = new Queue<GameObject>();
     GameObject monster;
-    public List<GameObject> monsterList = new List<GameObject>();
+    //public List<GameObject> monsterList = new List<GameObject>(); // 存储所有怪物的列表
     private void Awake()
     {
         Instance = this;
@@ -39,7 +40,7 @@ public class ObjGuaiWu : MonoBehaviour
             monster = Instantiate(monsterPrefab, guaiwuPos);
             monster.SetActive(false);
             monsterPool.Enqueue(monster);
-            monsterList.Add(monster);
+            //monsterList.Add(monster);
         }
     }
 
@@ -62,6 +63,7 @@ public class ObjGuaiWu : MonoBehaviour
     {
         monster.SetActive(false);
         monsterPool.Enqueue(monster);
+   
     }
 
     // 动态扩容对象池

@@ -1930,6 +1930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guaiwuPos: {fileID: 2121936978}
+  experiencePrefab: {fileID: 6131996183185478259, guid: 1535e203ec912dc47b94722bf33360ee, type: 3}
   monsterPrefab: {fileID: 3099706071524564848, guid: 54379c56c10daa6479e599331ff3127e, type: 3}
   initialPoolSize: 15
   spawnInterval: 1

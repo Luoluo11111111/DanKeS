@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GuaiTran: {fileID: 1259157294471550574}
+  experiencePrefab: {fileID: 6131996183185478259, guid: 1535e203ec912dc47b94722bf33360ee, type: 3}
 --- !u!70 &1129213245613273244
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

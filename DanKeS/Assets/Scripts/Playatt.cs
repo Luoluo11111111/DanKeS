@@ -25,13 +25,7 @@ public class Playatt : MonoBehaviour
         {
             if (targetObj != null)  //如果对象存在
             {
-                //for (int i = 0; i < ObjGuaiWu.Instance.monsterList.Count; i++)
-                //{
-                //    if (Vector3.Distance(transform.position, ObjGuaiWu.Instance.monsterList[i].transform.position) < 5f)
-                //    {
-                        
-                //    }
-                //}
+              
                 Debug.Log("攻击");
                 Instantiate(att, Generatelocation); //生成武器
             }

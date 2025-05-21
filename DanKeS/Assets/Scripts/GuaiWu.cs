@@ -7,6 +7,7 @@ public class GuaiWu : MonoBehaviour
 {
     private Slider playHp;  //人物血量
     public Transform GuaiTran;  //怪物位置
+    public GameObject experiencePrefab; //经验
 
     public static GuaiWu instance;
     private void Awake()
@@ -38,8 +39,12 @@ public class GuaiWu : MonoBehaviour
         }
         if(other.tag == "att")
         {
-            GameObject exp = Resources.Load<GameObject>("Experience");
-            Instantiate(exp, GuaiTran.transform.position, Quaternion.identity);
+            Vector2 spawnPosition = new Vector2(
+              transform.position.x,
+              transform.position.y
+            );
+            // 在当前位置实例化经验预制体，使用默认的旋转角度
+            Instantiate(experiencePrefab, spawnPosition, Quaternion.identity);
         }
     }
 }
