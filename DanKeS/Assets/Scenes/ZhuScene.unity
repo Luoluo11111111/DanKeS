@@ -17207,11 +17207,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794099672}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &1799526738
-=======
---- !u!1 &1819271773
->>>>>>> origin/quzhiyu
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17219,34 +17215,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1799526739}
   - component: {fileID: 1799526741}
   - component: {fileID: 1799526740}
   m_Layer: 5
   m_Name: weapon2
-=======
-  - component: {fileID: 1819271774}
-  m_Layer: 0
-  m_Name: GameObject
->>>>>>> origin/quzhiyu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!224 &1799526739
 RectTransform:
-=======
---- !u!4 &1819271774
-Transform:
->>>>>>> origin/quzhiyu
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1799526738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -17458,17 +17442,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821560060}
   m_CullTransparentMesh: 1
-=======
-  m_GameObject: {fileID: 1819271773}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 514.26306, y: 393.8927, z: -3.6084592}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> origin/quzhiyu
 --- !u!1 &1835039659
 GameObject:
   m_ObjectHideFlags: 0
@@ -17742,11 +17715,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862544181}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &1872311988
-=======
---- !u!1 &1884800314
->>>>>>> origin/quzhiyu
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17754,35 +17723,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1872311989}
   - component: {fileID: 1872311991}
   - component: {fileID: 1872311990}
   m_Layer: 5
   m_Name: gold
-=======
-  - component: {fileID: 1884800315}
-  - component: {fileID: 1884800316}
-  m_Layer: 0
-  m_Name: "jiaoben\u2014GameObject"
->>>>>>> origin/quzhiyu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!224 &1872311989
 RectTransform:
-=======
---- !u!4 &1884800315
-Transform:
->>>>>>> origin/quzhiyu
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1872311988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -17800,24 +17756,11 @@ Transform:
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872311990
-=======
-  m_GameObject: {fileID: 1884800314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.084515, y: 413.7785, z: -1.6304092}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1884800316
->>>>>>> origin/quzhiyu
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1872311988}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17850,15 +17793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872311988}
   m_CullTransparentMesh: 1
-=======
-  m_GameObject: {fileID: 1884800314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14ebd326ae3628d41857ff1a360df297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 983965574}
->>>>>>> origin/quzhiyu
 --- !u!1 &1894206416
 GameObject:
   m_ObjectHideFlags: 0
